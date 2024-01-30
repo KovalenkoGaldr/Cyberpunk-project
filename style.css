@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Archangelsk" ;
+    src: url("./assets/fonts/ofont.ru_Archangelsk.ttf");
+}
+
+body {
+    margin: 0 auto;
+}
+
+.header {
+    background: url("./assets/image/cyberpunk.png");
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: 100% 100%;
+}
+
+.container {
+    padding: 0 320px;
+    position: relative;
+    width: calc(100vw - 640px);
+    height: 100vh;
+}
+
+.header-info {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-info-social {
+    display: flex;
+    gap: 40px;
+}
+
+.header-info-logo:hover,.header-info-social_hover:hover {
+    cursor: pointer;
+}
+
+.header-platform {
+    background-color: #F8F200;
+    width: 484px;
+    height: 229px;
+    clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 17%);
+    position: absolute;
+    right: 320px;
+    bottom: 0px;
+    padding: 70px;
+}
+
+.header-platform-text {
+font-family: "Archangelsk";
+font-size:62px;
+font-weight: 400;
+margin: 0 0 25px;
+}
+
+.header-platform-button {
+    padding: 19px 50px;
+    background-color: #000;
+    color: #F8F200;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-platform-button:hover {
+    cursor: pointer;
+}
