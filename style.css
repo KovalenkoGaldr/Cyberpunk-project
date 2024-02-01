@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Archangelsk" ;
+    font-family: "Archangelsk";
     src: url("./assets/fonts/ofont.ru_Archangelsk.ttf");
 }
 
@@ -8,9 +8,9 @@ body {
 }
 
 .title {
-font-family: "Archangelsk";
-font-size: 62px;
-font-weight: 400;
+    font-family: "Archangelsk";
+    font-size: 62px;
+    font-weight: 400;
 }
 
 .header {
@@ -35,11 +35,11 @@ font-weight: 400;
     align-items: center;
 }
 
-.logo :hover {
-cursor: pointer;
+.logo:hover {
+    cursor: pointer;
 }
 
-.header-info-social {
+.info__social {
     display: flex;
     gap: 40px;
 }
@@ -51,18 +51,15 @@ cursor: pointer;
     clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 17%);
     position: absolute;
     right: 320px;
-    bottom: 0px;
+    bottom: 0;
     padding: 70px;
 }
 
-.header-platform-text {
-    font-family: "Archangelsk";
-    font-size: 62px;
-    font-weight: 400;
+.platform__title {
     margin: 0 0 25px;
 }
 
-.header__platform button {
+.platform__button {
     padding: 19px 50px;
     background-color: #000;
     color: #F8F200;
@@ -71,6 +68,6 @@ cursor: pointer;
     font-weight: 700;
 }
 
-.header__platform button:hover {
+.button:hover {
     cursor: pointer;
 }
