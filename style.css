@@ -132,12 +132,21 @@ body {
     margin-top: 15px;
 }
 
-.promotion__text__title {
+.promotion__logo__title {
     color: #FFF;
+    display: flex;
+    flex-direction: row;
 }
 
-.promotion__text__title title {
-    position: relative;
-    bottom: 130px;
-    left: 170px;
+.promotion__logo__title__text {
+    padding-top: 45px;
+    padding-left: 32px;
+}
+
+.promotion__text__paragraph {
+    font-family: "Roboto";
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
 }
