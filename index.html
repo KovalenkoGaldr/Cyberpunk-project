@@ -95,10 +95,14 @@
                 <form class="promotion__form form">
                     <input type="text" class="form__input-name input" placeholder="Как тебя зовут?">
                     <input type="email" class="form__input-email input" placeholder="Твой e-mail">
-                        <div class="promotion__form__screenshot">
-                            <input type="file" class="form__screenshot">
+                        <div class="form__screenshot screenshot">
+                            <input type="file" id="screenshot" class="screenshot__input">
+                            <label for="screenshot" class="screenshot__label">
+                                <span class="label--first-line">Прикрепить скриншот</span>
+                                <span class="label--last-line">.png / .jpg / .pdf</span>
+                            </label>
                         </div>
-                        <button class="promotion__form__button button--yellow">
+                        <button class="form__button button--yellow">
                             Отправить
                         </button>   
                 </form>
