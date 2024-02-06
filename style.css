@@ -218,3 +218,35 @@ body {
     font-size: 12px;
     font-weight: 300;
 }
+
+.form__real-checkbox {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.form__costom-checkbox {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+    background-color: #fff;
+    border: 1px solid #777
+}
+
+.form__costom-checkbox::before {
+    content: "";
+    width: 4px;
+    height: 7px;
+    background-image: url(./assets/icons/checkmark.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: translate(-50%, -50%); scale: (0);
+}   
+
+.form__real-checkbox:checked + .form__costom-checkbox::before {
+    transform: translate(-50%, -50%); scale: (1)
+}
