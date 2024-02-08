@@ -245,3 +245,25 @@ body {
 .checkbox__input:checked + label::before {
     background: url(./assets/icons/checkmark.svg) no-repeat center;
 }
+
+.monitor {
+    background-color: #F8F200;
+    width: 100vw;
+}
+
+.monitor__container {
+    display: flex;
+}
+
+.monitor__logo {
+    margin-top: 70px;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+} 
+
+.monitor__headline {
+
+}
