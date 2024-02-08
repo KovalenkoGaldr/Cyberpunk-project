@@ -130,18 +130,18 @@ body {
     margin-top: 15px;
 }
 
-.promotion__logo__title {
+.promotion__headline {
     color: #FFF;
     display: flex;
     flex-direction: row;
 }
 
-.promotion__logo__title__text {
+.headline__title {
     padding-top: 45px;
     padding-left: 32px;
 }
 
-.promotion__text__paragraph {
+.description__text {
     color: #FFF;
     font-size: 18px;
     font-weight: 400;
@@ -152,7 +152,7 @@ body {
     display: flex;
 }
 
-.promotion__console__img {
+.promotion__img {
     width: 60%
 }
 
@@ -184,11 +184,18 @@ body {
     padding-left: 10px;
 }
 
-.screenshot__input {
+.element--hidden {
+    display: none;
     opacity: 0;
     width: 0;
     height: 0;
 }
+
+/* .screenshot__input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+} */
 
 .screenshot__label {
     display: block;
@@ -219,10 +226,10 @@ body {
     font-weight: 300;
 }
 
-.checkbox__input {
+/* .checkbox__input {
     opacity: 0;
     display: none;
-}
+} */
 
 .checkbox__label {
     color: #fff;
@@ -248,4 +255,9 @@ body {
 
 .checkbox__input:checked + label::before {
     background: url(./assets/icons/checkmark.svg) no-repeat center;
+}
+
+.promotion__bottom {
+    width: 100vw;
+    height: 70px;
 }
