@@ -5,6 +5,7 @@
 
 body {
     margin: 0 auto;
+    font-family: "Roboto";
 }
 
 .title {
@@ -63,7 +64,6 @@ body {
     padding: 19px 50px;
     background-color: #000;
     color: #F8F200;
-    font-family: "Roboto";
     font-size: 24px;
     font-weight: 700;
 }
@@ -73,7 +73,13 @@ body {
 }
 
 .text {
-    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.text--white {
+    color: #FFF;
     font-size: 18px;
     font-weight: 400;
     line-height: 34px;
@@ -110,4 +116,132 @@ body {
 
 .spray { 
     width: 100vw;
+    height: 70px;
+}
+
+.promotion {
+    background-color: #000;
+    width: 100vw;
+}
+
+.promotion__logo { 
+    width: 132px;
+    height: 132px;
+    margin-top: 15px;
+}
+
+.promotion__headline {
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+}
+
+.headline__title {
+    padding-top: 45px;
+    padding-left: 32px;
+}
+
+.description__text {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.promotion__console {
+    display: flex;
+}
+
+.promotion__img {
+    width: 60%
+}
+
+.promotion__form {
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.button--yellow {
+    background-color: #F8F200;
+    width: 192px;
+    height: 59px;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid #777;
+    height: 35px;
+    width: 450px;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFF;
+    padding-left: 10px;
+}
+
+.element--hidden {
+    display: none;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.screenshot__label {
+    display: block;
+    width: 460px;
+    height: 120px;
+    border: 1px dashed #777;
+    cursor: pointer;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.screenshot__label:active {
+    border: 2px solid #fff;
+}
+
+.label--first-line {
+    text-decoration-line: underline;
+    font-size: 18px;
+    font-weight: 300;
+} 
+
+.label--last-line {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.checkbox__label {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.checkbox__input + label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.checkbox__input + label::before {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #777;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.checkbox__input:checked + label::before {
+    background: url(./assets/icons/checkmark.svg) no-repeat center;
 }

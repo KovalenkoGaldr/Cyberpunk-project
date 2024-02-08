@@ -64,7 +64,56 @@
                 <img class="section-night-city__images--right" src="./assets/image/night03.png" alt="ночной город">
             </div>
         </div>
-        <img class="section-night-city__spray spray" src="./assets/image/spray.png" alt="линия спрей">
+    </section>
+    <section class="promotion">
+        <img class="promotion__spray spray" src="./assets/image/spray.png" alt="линия спрей">
+        <div class="promotion__container container">
+            <div class="promotion__headline">
+                <img src="./assets/icons/promotion.svg" alt="акция логотип">
+                <h1 class="headline__title title">
+                        Играй и выигрывай!
+                </h1>
+            </div>
+            <div class="promotion__description">
+                 <p class="description__text">
+                    Играй в 
+                    <span class="description__text--blue text--blue">
+                        Cyberpunk 2077 
+                    </span>
+                    и получи возможность выиграть консоль 
+                    <span class="description__text--blue text--blue">
+                        Xbox Series X
+                    </span> 
+                    или 
+                    <span class="description__text--blue text--blue">
+                        Sony PlayStation 5!
+                    </span> 
+                    Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! ;) 
+                 </p>
+            </div>
+            <div class="promotion__console">
+                <form class="promotion__form form">
+                    <input type="text" class="form__input-name input" placeholder="Как тебя зовут?">
+                    <input type="email" class="form__input-email input" placeholder="Твой e-mail">
+                    <div class="form__screenshot screenshot">
+                        <input type="file" id="screenshot" class="screenshot__input element--hidden">
+                        <label for="screenshot" class="screenshot__label">
+                            <span class="label--first-line">Прикрепить скриншот</span>
+                            <span class="label--last-line">.png / .jpg / .pdf</span>
+                        </label>
+                    </div>
+                    <button class="form__button button--yellow">
+                        Отправить
+                    </button>
+                    <div class="form__checkbox checkbox">
+                        <input type="checkbox" id="checkbox" class="checkbox__input element--hidden">
+                        <label for="checkbox" class="checkbox__label">Согласен на обработку персональных данных</label>
+                    </div>                 
+                </form>
+                <img class="promotion__img" src="./assets/image/console.png" alt="консоли">
+            </div>
+        </div>
+        <img class="promotion__bottom spray" src="./assets/image/bottomspray.png" alt="спрей снизу">
     </section>
 </body>
 </html>
