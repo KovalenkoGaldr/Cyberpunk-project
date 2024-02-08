@@ -256,8 +256,3 @@ body {
 .checkbox__input:checked + label::before {
     background: url(./assets/icons/checkmark.svg) no-repeat center;
 }
-
-.promotion__bottom {
-    width: 100vw;
-    height: 70px;
-}
