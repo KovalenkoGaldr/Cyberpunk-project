@@ -71,6 +71,11 @@ body {
 
 .button:hover {
     cursor: pointer;
+    
+}
+
+.button {
+    border: none;
 }
 
 .text {
@@ -260,6 +265,8 @@ body {
 
 .monitor__container {
     display: flex;
+    gap: 36px;
+    margin-bottom: 80px;
 }
 
 .monitor__logo {
@@ -270,3 +277,45 @@ body {
     align-items: center;
     gap: 26px;
 } 
+
+.monitor__paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    margin: 25px 0;
+}
+
+.monitor__title {
+    margin-bottom: 0;
+}
+
+.list__item {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.list__item--stars {
+    margin: 20px 0;
+    list-style-image: url(./assets/icons/stars.svg) 
+}
+
+.list__item--palette {
+    list-style-image: url(./assets/icons/palette.svg)
+}
+
+.list__item--files {
+    list-style-image: url(./assets/icons/files.svg)
+}
+
+.list__item::marker {
+    padding-top: 2px;
+}
+
+.monitor__button {
+    padding: 15px 50px;
+    background-color: #000;
+    color: #F8F200;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 40px;
+}
