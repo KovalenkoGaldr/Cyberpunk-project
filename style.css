@@ -266,7 +266,6 @@ body {
 .monitor__container {
     display: flex;
     gap: 36px;
-    margin-bottom: 80px;
 }
 
 .monitor__logo {
@@ -307,10 +306,6 @@ body {
     list-style-image: url(./assets/icons/files.svg)
 }
 
-.list__item::marker {
-    padding-top: 2px;
-}
-
 .monitor__button {
     padding: 15px 50px;
     background-color: #000;
@@ -318,4 +313,5 @@ body {
     font-size: 18px;
     font-weight: 700;
     margin-top: 40px;
+    margin-bottom: 80px; 
 }
