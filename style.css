@@ -343,5 +343,40 @@ body {
 }
 
 .info__set {
-    margin-bottom: 70px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.info__list {
+    color: #fff;
+}
+
+.list__set--disk {
+    list-style-image: url(./assets/icons/disk.svg);
+}
+
+.list__set--case {
+    list-style-image: url(./assets/icons/case.svg);
+}
+
+.list__set--directory {
+    list-style-image: url(./assets/icons/directory.svg);
+}
+
+.info__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 32px;
+    padding-bottom: 60px;
+}
+
+.info__platform {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.info__console-logo {
+    display: block;
+    margin: 24px 0;
 }
