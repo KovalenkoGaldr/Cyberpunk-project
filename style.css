@@ -376,7 +376,28 @@ body {
     font-weight: 700;
 }
 
-.info__console-logo {
-    display: block;
-    margin: 24px 0;
+.logo--cursor:hover {
+    cursor: pointer;
+}
+
+.console-logo__top {
+    margin: 24px 0 50px;
+}
+
+.top__pc-logo {
+    margin-right: 80px;
+}
+
+.bottom__stadia-logo {
+    margin-right: 80px;
+}
+
+.top__xbox-logo {
+    width: 177.99px;
+    height: 35.19px;
+}
+
+.bottom__ps-logo {
+    width: 168px;
+    height: 35.19px;
 }
