@@ -318,7 +318,7 @@ body {
     max-width: 100%;
 }
 
-.left-imge--diskcyberpunk {
+.left-image--diskcyberpunk {
     width: 944px;
     height: 100%;
     max-width: 100%;
@@ -328,7 +328,6 @@ body {
     max-width: 100%;
     background-color: #000;
     width: 976px;
-    height: 717px;
 }
 
 .info__headline {
@@ -386,17 +385,6 @@ body {
     margin-right: 80px;
 }
 
-.top__xbox-logo {
-    width: 177.99px;
-    height: 35.19px;
-}
-
-.bottom__ps-logo {
-    width: 168px;
-    height: 35.19px;
-}
-
 .info__console-logo {
     padding-bottom: 65px;
-    height: 100%;
 }
