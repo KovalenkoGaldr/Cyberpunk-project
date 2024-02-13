@@ -314,7 +314,7 @@ body {
     display: flex;
 }
 
-.buy-the-game__left-imge {
+.buy-the-game__left-image {
     max-width: 100%;
 }
 
@@ -377,11 +377,7 @@ body {
     margin: 24px 0 50px;
 }
 
-.top__pc-logo {
-    margin-right: 80px;
-}
-
-.bottom__stadia-logo {
+.top__pc-logo, .bottom__stadia-logo {
     margin-right: 80px;
 }
 
