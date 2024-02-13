@@ -16,7 +16,6 @@ body {
 
 .header {
     background: url("./assets/image/cyberpunk.png");
-    width: 100vw;
     height: 100vh;
     position: relative;
     background-size: 100% 100%;
@@ -120,13 +119,12 @@ body {
 }
 
 .spray { 
-    width: 100vw;
+    width: 100%;
     height: 70px;
 }
 
 .promotion {
     background-color: #000;
-    width: 100vw;
 }
 
 .promotion__logo { 
@@ -258,7 +256,6 @@ body {
 
 .monitor {
     background-color: #F8F200;
-    width: 100vw;
 }
 
 .monitor__container {
@@ -311,4 +308,79 @@ body {
     font-size: 18px;
     font-weight: 700;
     margin: 40px 0 80px;
+}
+
+.buy-the-game {
+    display: flex;
+}
+
+.buy-the-game__left-image {
+    max-width: 100%;
+}
+
+.left-image--diskcyberpunk {
+    width: 944px;
+    height: 100%;
+    max-width: 100%;
+}
+
+.buy-the-game__right {
+    max-width: 100%;
+    background-color: #000;
+    width: 976px;
+}
+
+.info__headline {
+    color: #fff;
+    width: 624px;
+    margin-bottom: 25px;
+}
+
+.right__info {
+    margin: 70px 0 0 32px;
+}
+
+.info__list {
+    color: #fff;
+}
+
+.list__set--disk {
+    list-style-image: url(./assets/icons/disk.svg);
+}
+
+.list__set--case {
+    list-style-image: url(./assets/icons/case.svg);
+}
+
+.list__set--directory {
+    list-style-image: url(./assets/icons/directory.svg);
+}
+
+.info__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 32px;
+    padding-bottom: 60px;
+}
+
+.info__platform, .info__set {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo--cursor:hover {
+    cursor: pointer;
+}
+
+.console-logo__top {
+    margin: 24px 0 50px;
+}
+
+.top__pc-logo, .bottom__stadia-logo {
+    margin-right: 80px;
+}
+
+.info__console-logo {
+    padding-bottom: 65px;
 }
