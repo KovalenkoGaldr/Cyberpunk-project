@@ -320,7 +320,7 @@ body {
 
 .left-imge--diskcyberpunk {
     width: 944px;
-    height: 717px;
+    height: 100%;
     max-width: 100%;
 }
 
@@ -334,17 +334,11 @@ body {
 .info__headline {
     color: #fff;
     width: 624px;
-    height: 126px;
     margin-bottom: 25px;
 }
 
 .right__info {
     margin: 70px 0 0 32px;
-}
-
-.info__set {
-    font-size: 24px;
-    font-weight: 700;
 }
 
 .info__list {
@@ -371,7 +365,7 @@ body {
     padding-bottom: 60px;
 }
 
-.info__platform {
+.info__platform, .info__set {
     font-size: 24px;
     font-weight: 700;
 }
@@ -400,4 +394,9 @@ body {
 .bottom__ps-logo {
     width: 168px;
     height: 35.19px;
+}
+
+.info__console-logo {
+    padding-bottom: 65px;
+    height: 100%;
 }
