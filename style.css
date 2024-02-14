@@ -387,7 +387,6 @@ body {
 
 .footer__license {
     background-color: #fff;
-    height: 100px;
 }
 
 .left__cyberpunk-logo {
@@ -395,23 +394,18 @@ body {
 }
 
 .license__left {
-    margin: 13px 0 13px 81px;
-}
-
-.license__right {
-    display: block;
+    margin-right: 390px;
 }
 
 .footer__container {
     display: flex;
-    justify-content: space-between;
 }
 
 .license__right {
     display: flex;
     align-items: center;
     gap: 32px;
-    margin-right: 94px;
+    /* margin-right: 94px; */
 }
 
 .footer__black-line {
