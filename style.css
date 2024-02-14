@@ -384,3 +384,49 @@ body {
 .info__console-logo {
     padding-bottom: 65px;
 }
+
+.footer__license {
+    background-color: #fff;
+    height: 100px;
+}
+
+.left__cyberpunk-logo {
+    margin-right: 32px;
+}
+
+.license__left {
+    margin: 13px 0 13px 81px;
+}
+
+.license__right {
+    display: block;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.license__right {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-right: 94px;
+}
+
+.footer__black-line {
+    background-color: #000;
+    height: 40px;
+}
+
+.black-line__text {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer__black-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
