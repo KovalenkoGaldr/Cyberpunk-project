@@ -424,3 +424,8 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.license__right__text-license, .license__right__text-policy {
+    text-decoration: none;
+    color: #000;
+}
