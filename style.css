@@ -16,11 +16,22 @@ body {
 
 .header {
     background: url("./assets/image/cyberpunk.png");
-    width: 100vw;
     height: 100vh;
     position: relative;
     background-size: 100% 100%;
     animation: changing 10s infinite;
+}
+
+@keyframes changing {
+    0% {
+        background-image: url(./assets/image/cyberpunk.png);
+    }
+    35% {
+        background-image: url(./assets/image/carcyberpunk.jpg);
+    }
+    68% {
+        background-image: url(./assets/image/motocyberpunk.jpg);
+    }
 }
 
 .container {
@@ -121,13 +132,12 @@ body {
 }
 
 .spray { 
-    width: 100vw;
+    width: 100%;
     height: 70px;
 }
 
 .promotion {
     background-color: #000;
-    width: 100vw;
 }
 
 .promotion__logo { 
@@ -259,7 +269,6 @@ body {
 
 .monitor {
     background-color: #F8F200;
-    width: 100vw;
 }
 
 .monitor__container {
@@ -314,14 +323,122 @@ body {
     margin: 40px 0 80px;
 }
 
-@keyframes changing {
-    0% {
-        background-image: url(./assets/image/cyberpunk.png);
-    }
-    35% {
-        background-image: url(./assets/image/carcyberpunk.jpg);
-    }
-    68% {
-        background-image: url(./assets/image/motocyberpunk.jpg);
-    }
+.buy-the-game {
+    display: flex;
+}
+
+.buy-the-game__left-image {
+    max-width: 100%;
+}
+
+.left-image--diskcyberpunk {
+    width: 944px;
+    height: 100%;
+    max-width: 100%;
+}
+
+.buy-the-game__right {
+    max-width: 100%;
+    background-color: #000;
+    width: 976px;
+}
+
+.info__headline {
+    color: #fff;
+    width: 624px;
+    margin-bottom: 25px;
+}
+
+.right__info {
+    margin: 70px 0 0 32px;
+}
+
+.info__list {
+    color: #fff;
+}
+
+.list__set--disk {
+    list-style-image: url(./assets/icons/disk.svg);
+}
+
+.list__set--case {
+    list-style-image: url(./assets/icons/case.svg);
+}
+
+.list__set--directory {
+    list-style-image: url(./assets/icons/directory.svg);
+}
+
+.info__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 32px;
+    padding-bottom: 60px;
+}
+
+.info__platform, .info__set {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo--cursor:hover {
+    cursor: pointer;
+}
+
+.console-logo__top {
+    margin: 24px 0 50px;
+}
+
+.top__pc-logo, .bottom__stadia-logo {
+    margin-right: 80px;
+}
+
+.info__console-logo {
+    padding-bottom: 65px;
+}
+
+.footer__license {
+    background-color: #fff;
+}
+
+.left__cyberpunk-logo {
+    margin-right: 32px;
+}
+
+.license__left {
+    margin: 13px 0;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.license__right {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.footer__black-line {
+    background-color: #000;
+    height: 40px;
+}
+
+.black-line__text {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer__black-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.license__right__text-license, .license__right__text-policy {
+    text-decoration: none;
+    color: #000;
 }
