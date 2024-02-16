@@ -20,6 +20,7 @@ body {
     height: 100vh;
     position: relative;
     background-size: 100% 100%;
+    animation: changing 10s infinite;
 }
 
 .container {
@@ -311,4 +312,16 @@ body {
     font-size: 18px;
     font-weight: 700;
     margin: 40px 0 80px;
+}
+
+@keyframes changing {
+    0% {
+        background-image: url(./assets/image/cyberpunk.png);
+    }
+    35% {
+        background-image: url(./assets/image/carcyberpunk.jpg);
+    }
+    68% {
+        background-image: url(./assets/image/motocyberpunk.jpg);
+    }
 }
