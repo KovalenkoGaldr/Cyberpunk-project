@@ -296,22 +296,30 @@ body {
     margin-bottom: 0;
 }
 
+.monitor__list {
+    padding-left: 0;
+}
+
 .list__item {
     font-size: 18px;
     font-weight: 400;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    list-style-type: none;
 }
 
 .list__item--stars {
     margin: 20px 0;
-    list-style-image: url(./assets/icons/stars.svg) 
+    background-image: url(./assets/icons/stars.svg) 
 }
 
 .list__item--palette {
-    list-style-image: url(./assets/icons/palette.svg)
+    background-image: url(./assets/icons/palette.svg)
 }
 
 .list__item--files {
-    list-style-image: url(./assets/icons/files.svg)
+    background-image: url(./assets/icons/files.svg)
 }
 
 .monitor__button {
@@ -353,28 +361,32 @@ body {
     margin: 70px 0 0 32px;
 }
 
-.info__list {
-    color: #fff;
+.list__set{
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .list__set--disk {
-    list-style-image: url(./assets/icons/disk.svg);
+    background-image: url(./assets/icons/disk.svg);
 }
 
 .list__set--case {
-    list-style-image: url(./assets/icons/case.svg);
+    background-image: url(./assets/icons/case.svg);
 }
 
 .list__set--directory {
-    list-style-image: url(./assets/icons/directory.svg);
+    background-image: url(./assets/icons/directory.svg);
 }
 
 .info__list {
+    color: #fff;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-left: 32px;
+    padding-left: 0;
     padding-bottom: 60px;
+    list-style-type: none;
 }
 
 .info__platform, .info__set {
