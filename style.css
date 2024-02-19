@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Archangelsk";
-    src: url("./assets/fonts/ofont.ru_Archangelsk.ttf");
+    src: url(./assets/fonts/ofont.ru_Archangelsk.ttf);
 }
 
 body {
@@ -15,10 +15,12 @@ body {
 }
 
 .header {
-    background: url("./assets/image/cyberpunk.png");
+    background: url(./assets/image/cyberpunk.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
     position: relative;
-    background-size: 100% 100%;
     animation: changing 10s infinite;
 }
 
@@ -49,7 +51,7 @@ body {
     align-items: center;
 }
 
-.logo:hover {
+.logo:hover, button:hover {
     cursor: pointer;
 }
 
@@ -81,22 +83,11 @@ body {
     font-weight: 700;
 }
 
-.button:hover {
-    cursor: pointer;
-}
-
 .button {
     border: none;
 }
 
 .text {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 34px;
-}
-
-.text--white {
-    color: #FFF;
     font-size: 18px;
     font-weight: 400;
     line-height: 34px;
@@ -149,7 +140,6 @@ body {
 .promotion__headline {
     color: #FFF;
     display: flex;
-    flex-direction: row;
 }
 
 .headline__title {
@@ -172,7 +162,6 @@ body {
     width: 100%;
     height: 100%;
 }    
-
 
 .promotion__form {
     margin: 70px 0;
@@ -296,22 +285,30 @@ body {
     margin-bottom: 0;
 }
 
+.monitor__list {
+    padding-left: 0;
+}
+
 .list__item {
     font-size: 18px;
     font-weight: 400;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    list-style-type: none;
 }
 
 .list__item--stars {
     margin: 20px 0;
-    list-style-image: url(./assets/icons/stars.svg) 
+    background-image: url(./assets/icons/stars.svg) 
 }
 
 .list__item--palette {
-    list-style-image: url(./assets/icons/palette.svg)
+    background-image: url(./assets/icons/palette.svg)
 }
 
 .list__item--files {
-    list-style-image: url(./assets/icons/files.svg)
+    background-image: url(./assets/icons/files.svg)
 }
 
 .monitor__button {
@@ -353,37 +350,37 @@ body {
     margin: 70px 0 0 32px;
 }
 
-.info__list {
-    color: #fff;
+.list__set {
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .list__set--disk {
-    list-style-image: url(./assets/icons/disk.svg);
+    background-image: url(./assets/icons/disk.svg);
 }
 
 .list__set--case {
-    list-style-image: url(./assets/icons/case.svg);
+    background-image: url(./assets/icons/case.svg);
 }
 
 .list__set--directory {
-    list-style-image: url(./assets/icons/directory.svg);
+    background-image: url(./assets/icons/directory.svg);
 }
 
 .info__list {
+    color: #fff;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-left: 32px;
+    padding-left: 0;
     padding-bottom: 60px;
+    list-style-type: none;
 }
 
 .info__platform, .info__set {
     font-size: 24px;
     font-weight: 700;
-}
-
-.logo--cursor:hover {
-    cursor: pointer;
 }
 
 .console-logo__top {
@@ -424,6 +421,9 @@ body {
 .footer__black-line {
     background-color: #000;
     height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .black-line__text {
@@ -432,13 +432,8 @@ body {
     font-weight: 400;
 }
 
-.footer__black-line {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .license__right__text-license, .license__right__text-policy {
     text-decoration: none;
     color: #000;
+    font-size: 18px;
 }
