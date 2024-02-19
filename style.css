@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Archangelsk";
-    src: url("./assets/fonts/ofont.ru_Archangelsk.ttf");
+    src: url(./assets/fonts/ofont.ru_Archangelsk.ttf);
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 }
 
 .header {
-    background: url("./assets/image/cyberpunk.png");
+    background: url(./assets/image/cyberpunk.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
