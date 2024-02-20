@@ -161,7 +161,11 @@ body {
 .promotion__img {
     width: 100%;
     height: 100%;
-}    
+}
+
+.promotion__img--vertical {
+    display: none;
+}
 
 .promotion__form {
     margin: 70px 0;
@@ -274,6 +278,10 @@ body {
     gap: 26px;
 } 
 
+.logo__hp--vertically {
+    display: none;
+}
+
 .monitor__paragraph {
     font-size: 18px;
     font-weight: 400;
@@ -326,6 +334,10 @@ body {
 
 .buy-the-game__left-image {
     max-width: 100%;
+}
+
+.left-image--diskcyberpunk-vertically {
+    display: none;
 }
 
 .left-image--diskcyberpunk {

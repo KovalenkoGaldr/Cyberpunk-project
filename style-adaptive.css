@@ -1,0 +1,67 @@
+@media screen and (max-width: 1024px) {
+    .section-night-city__title {
+        max-width: 100%;
+        width: 70%;
+    }
+
+    .section-night-city__text {
+        max-width: 100%;
+        width: 81%;
+    }
+
+    .section-night-city__images {
+        flex-direction: column;
+    }
+
+    .section-night-city__images--left {
+        flex-direction: row;
+    }
+
+    .promotion__img {
+        display: none;
+    }
+
+    .promotion__img--vertical {
+        display: block;
+        position: absolute;
+        bottom: 140px;
+        left: 505px;
+    }
+
+    .promotion__headline {
+        display: block;
+    }
+
+    .headline__title {
+        padding: 0;
+        width: 60%;
+    }
+
+    .promotion__description {
+        width: 49%;
+    }
+
+    .logo__logo--monitor-image {
+        width: 100%;
+    }
+
+    .logo__hp-logo {
+        display: none;
+    }
+
+    .logo__hp--vertically {
+        display: block;
+    }
+
+    .monitor__headline {
+        width: 60%;
+    }
+
+    .left-image--diskcyberpunk {
+        display: none;
+    }
+
+    .left-image--diskcyberpunk-vertically {
+        display: block;
+    }
+}
