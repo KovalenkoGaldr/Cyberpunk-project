@@ -122,6 +122,10 @@ body {
     width: auto
 }
 
+.section-night-city__images--right-bottom {
+    display: none;
+}
+
 .spray { 
     width: 100%;
     height: 70px;
@@ -140,6 +144,10 @@ body {
 .promotion__headline {
     color: #FFF;
     display: flex;
+}
+
+.promotion__img--horizon {
+    display: none;
 }
 
 .headline__title {

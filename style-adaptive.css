@@ -65,3 +65,86 @@
         display: block;
     }
 }
+
+@media screen and (max-width: 320px) {
+
+    .container {
+        padding: 0 12px;
+    }
+
+    .header__container {
+        padding: 0 36px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .header__info {
+        flex-direction: column;
+    }
+
+    .logo__cyberpunk-logo--icons {
+        width: 95%;
+    }
+
+    .info__social {
+        gap: 15px;
+    }
+
+    .header__platform {
+        bottom: -8%;
+        width: 100%;
+        left: 0;
+        right: 0;
+        padding: 30px 0;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .platform__button {
+        font-size: 20px;
+    }
+
+    .section-night-city__title {
+        width: 100%;
+        margin: 110px 0 25px;
+    }
+
+    .section-night-city__text {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .section-night-city__images--left {
+        flex-direction: column;
+    }
+
+    .section-night-city__images--right {
+        display: none;
+    }
+
+    .section-night-city__images--right-bottom {
+        display: block;
+    }
+
+    .spray {
+        width: auto;
+    }
+
+    .promotion__img--vertical {
+        display: none;
+    }
+
+    .promotion__img--horizon {
+        display: block;
+    }
+
+    .headline__promotion--logo {
+        width: 62px;
+        height: 62px;
+    }
+}
