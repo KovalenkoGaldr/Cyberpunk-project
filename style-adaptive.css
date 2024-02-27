@@ -132,7 +132,24 @@
     }
 
     .spray {
-        width: auto;
+        width: 100%;
+        height: 70px;
+    }
+
+    .promotion__spray {
+        display: none;
+    }
+
+    .promotion__spray320px {
+        display: block;
+    }
+
+    .monitor__spray {
+        display: none;
+    }
+
+    .monitor__spray320px {
+        display: block;
     }
 
     .promotion__img--vertical {
@@ -141,10 +158,159 @@
 
     .promotion__img--horizon {
         display: block;
+        width: 100%;
     }
 
     .headline__promotion--logo {
         width: 62px;
         height: 62px;
+    }
+
+    .headline__title {
+        width: 100%;
+    }
+
+    .description__text {
+        font-size: 16px;
+        width: 180%;
+    }
+
+    .logo__hp--vertically {
+        display: none;
+    }
+
+    .monitor__container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo__hp-logo {
+        display: block;
+        width: 200%;
+    }
+
+    .logo__logo--monitor-image {
+        width: 200%;
+    }
+
+    .monitor__logo {
+        align-items: normal;
+    }
+
+    .monitor__title {
+        width: 165%;
+        margin: 0;
+    }
+
+    .monitor__paragraph {
+        width: 165%;
+    }
+
+    .list__item  {
+        background-size: auto;
+        font-size: 16px;
+        width: 140%;
+        padding-left: 45px;
+    }
+
+    .monitor__button {
+        width: 184px;
+        height: 60px;
+        padding: 0;
+    }
+
+    .buy-the-game {
+        flex-direction: column;
+    }
+
+    .left-image--diskcyberpunk-320px {
+        display: block;
+        width: 303px;
+    }
+
+    .left-image--diskcyberpunk-vertically {
+        display: none;
+    }
+
+    .right__info {
+        margin: 40px 0 0 12px;
+    }
+
+    .info__headline {
+        width: auto;
+    }
+
+    .info__set {
+        font-size: 20px;
+    }
+
+    .info__list {
+        padding-bottom: 25px;
+    }
+
+    .list__set {
+        background-size: 6%;
+        font-size: 91%;
+    }
+
+    .info__platform {
+        font-size: 20px;
+    }
+
+    .top__pc-logo {
+        margin-right: 40px;
+    }
+
+    .bottom__stadia-logo {
+        margin-right: 40px;
+    }
+
+    .license__left {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .left__cyberpunk-logo {
+        width: 60%;
+        margin-right: 0;
+    }
+
+    .left__cdproject-logo {
+        width: 40%;
+    }
+
+    .license__right {
+        display: none;
+    }
+
+    .license320px {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #E6E6E6;
+        height: 103px;
+        gap: 10px;
+    }
+
+    .license320px__text-license {
+        text-decoration: none;
+        color: black;
+    }
+
+    .license320px__text-policy {
+        text-decoration: none;
+        color: black;
+    }
+
+    .screenshot__label {
+        width: 280px;
+    }
+
+    .input {
+        width: 270px;
     }
 }

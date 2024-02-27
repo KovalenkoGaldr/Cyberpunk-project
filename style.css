@@ -131,6 +131,14 @@ body {
     height: 70px;
 }
 
+.promotion__spray320px {
+    display: none;
+}
+
+.monitor__spray320px {
+    display: none;
+}
+
 .promotion {
     background-color: #000;
 }
@@ -344,6 +352,10 @@ body {
     max-width: 100%;
 }
 
+.left-image--diskcyberpunk-320px {
+    display: none;
+}
+
 .left-image--diskcyberpunk-vertically {
     display: none;
 }
@@ -413,6 +425,10 @@ body {
 
 .info__console-logo {
     padding-bottom: 65px;
+}
+
+.license320px {
+    display: none;
 }
 
 .footer__license {
