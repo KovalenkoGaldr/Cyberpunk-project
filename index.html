@@ -8,13 +8,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-adaptive.css">
 </head>
 <body>
     <header class="header"> 
         <div class="header__container container">
             <div class="header__info info">
                 <div class="info__logo logo">
-                    <img src="./assets/icons/cyberpunk-logo.svg" alt="Логотип">
+                    <img class="logo__cyberpunk-logo--icons" src="./assets/icons/cyberpunk-logo.svg" alt="Логотип">
                 </div>
                 <div class="info__social">   
                     <a href="https://www.youtube.com/"> 
@@ -62,14 +63,17 @@
                     <img src="./assets/image/night01.png" alt="ночной город">
                 </div>
                 <img class="section-night-city__images--right" src="./assets/image/night03.png" alt="ночной город">
+                <img class="section-night-city__images--right-bottom" src="./assets/image/night-city320px.png" alt="ночной город">
             </div>
         </div>
     </section>
     <section class="promotion">
         <img class="promotion__spray spray" src="./assets/image/spray.png" alt="линия спрей">
+        <img class="promotion__spray320px spray" src="./assets/image/spray320px-top.png" alt="линия спрей">
         <div class="promotion__container container">
             <div class="promotion__headline">
-                <img src="./assets/icons/promotion.svg" alt="акция логотип">
+                <img class="headline__promotion--logo" src="./assets/icons/promotion.svg" alt="акция логотип">
+                <img class="promotion__img--horizon" src="./assets/image/console320px.png" alt="консоли">
                 <h1 class="headline__title title">
                     Играй и выигрывай!
                 </h1>
@@ -113,15 +117,18 @@
                     </div>
                 </form>
                 <img class="promotion__img" src="./assets/image/console.png" alt="консоли">
+                <img class="promotion__img--vertical" src="./assets/image/consolevertically.png" alt="консоли">
             </div>
         </div>
     </section>
     <section class="monitor">
         <img class="monitor__spray spray" src="./assets/image/bottomspray.png" alt="спрей снизу">
+        <img class="monitor__spray320px spray" src="./assets/image/spray320px-bottom.png" alt="спрей снизу">
         <div class="monitor__container container">
             <div class="monitor__logo">
-                <img src="./assets/image/monitorpng.png" alt="монитор">
+                <img class="logo__logo--monitor-image" src="./assets/image/monitorpng.png" alt="монитор">
                 <img class="logo__hp-logo logo" src="./assets/icons/logomonitorsvg.svg" alt="логотип hp">
+                <img class="logo__hp--vertically" src="./assets/icons/hp-vertically.svg" alt="логотип hp">
             </div>
             <div class="monitor__headline">
                 <h2 class="monitor__title title">
@@ -150,6 +157,8 @@
     <section class="buy-the-game">
         <div class="buy-the-game__left-image">
             <img class="left-image--diskcyberpunk" src="./assets/image/diskscyberpunk.jpeg" alt="картинка с дисками">
+            <img class="left-image--diskcyberpunk-vertically" src="./assets/image/cyberpunk-vertically1024.png" alt="картинка с дисками">
+            <img class="left-image--diskcyberpunk-320px" src="./assets/image/diskcyberpunk320px.png" alt="картинка с дисками">
         </div>
         <div class="buy-the-game__right">
             <div class="right__info">
@@ -202,6 +211,14 @@
                     </a>
                 </div>
             </div>
+        </div>
+        <div class="license320px">
+            <a href class="license320px__text-license">
+                Лицензия
+            </a>
+            <a href class="license320px__text-policy">
+                Политика конфиденциальности
+            </a>
         </div>
         <div class="footer__black-line">
             <span class="black-line__text">
