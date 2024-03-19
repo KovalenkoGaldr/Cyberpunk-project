@@ -122,21 +122,13 @@ body {
     width: auto
 }
 
-.section-night-city__images--right-bottom {
+.section-night-city__images--right-bottom, .promotion__spray320px, .monitor__spray320px, .promotion__img--horizon, .promotion__img--vertical, .logo__hp--vertically, .left-image--diskcyberpunk-320px, .left-image--diskcyberpunk-vertically, .license320px  {
     display: none;
 }
 
 .spray { 
     width: 100%;
     height: 70px;
-}
-
-.promotion__spray320px {
-    display: none;
-}
-
-.monitor__spray320px {
-    display: none;
 }
 
 .promotion {
@@ -152,10 +144,6 @@ body {
 .promotion__headline {
     color: #FFF;
     display: flex;
-}
-
-.promotion__img--horizon {
-    display: none;
 }
 
 .headline__title {
@@ -177,10 +165,6 @@ body {
 .promotion__img {
     width: 100%;
     height: 100%;
-}
-
-.promotion__img--vertical {
-    display: none;
 }
 
 .promotion__form {
@@ -294,10 +278,6 @@ body {
     gap: 26px;
 } 
 
-.logo__hp--vertically {
-    display: none;
-}
-
 .monitor__paragraph {
     font-size: 18px;
     font-weight: 400;
@@ -350,14 +330,6 @@ body {
 
 .buy-the-game__left-image {
     max-width: 100%;
-}
-
-.left-image--diskcyberpunk-320px {
-    display: none;
-}
-
-.left-image--diskcyberpunk-vertically {
-    display: none;
 }
 
 .left-image--diskcyberpunk {
@@ -425,10 +397,6 @@ body {
 
 .info__console-logo {
     padding-bottom: 65px;
-}
-
-.license320px {
-    display: none;
 }
 
 .footer__license {
